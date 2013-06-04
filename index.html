@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>T台秀</title>
+        <meta name="keywords" content="52baituan,T台秀" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+        <script src='js/AbeUtility.js' type='text/javascript'>
+        </script>
+        <script src='js/AbeAnimate.js' type='text/javascript'>
+        </script>
+        <!--[if lte IE 6]>
+            <script type="text/javascript" src="iepngfix/iepngfix_tilebg.js"></script>
+            <style type="text/css">
+            img, div{behavior:url(iepngfix/iepngfix.htc);}
+            </style>
+            <link href="css/ie6.css" rel="stylesheet" type="text/css" media="screen" />
+        <![endif]-->
+        <script type='text/javascript'>
+            AddEvent(window, 'load', function(){
+                if (!navigator.appVersion.match(/MSIE\s*6/)) {
+                    get$('hint').style.display = 'none';
+                }
+                
+            });
+        </script>
+        <script src="info.php" type="text/javascript"></script>
+        <script src='js/feed.js' type='text/javascript'>
+        </script>
+        <script src='jwplayer/swfobject.js' type='text/javascript'>
+        </script>
+    </head>
+    <body>
+        <div id="content">
+            <div id="header">
+                <div id="logo">
+                    <h1><a href="#">时尚仙锋</a></h1>
+                    <h2><a href="vote.html" id="metamorph">为你支持的选手投一票</a></h2>
+                </div>
+                <div id="menu">
+                    <ul>
+                        <li>
+                            <a href="index.php" title="" class='on'>活动首页</a>
+                        </li>
+                        <li>
+                            <a href="vote.html" title="">选手投票</a>
+                        </li>
+						<li ><a   style="color:yellow" href="http://ssxf.info/chat.php">聊天室</a></li>
+                        <li>
+                            <a href="video.html" title="">活动视频</a>
+                        </li>
+							<li ><a  class="beeman"   href="http://2beeman.com/blog/">技术支持(2beeman.com)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id='hint' style="color:black;font-size:16px">
+                为获得更好性能和显示效果，建议使用ie7.0及以上版本
+            </div>
+            <div id='main'>
+            </div>
+            <div id="back">
+                <div id="right">
+                    <h3><span style='color:red;'>HOTVEDIO</span>&nbsp热门视频</h3>
+                    <div class="title_back">
+                        <div id="video">
+                        </div>
+									<p style="font-size:1.4em;">
+					赞助：<a style="color:#e32" href="http://xigesheying.xici.net">禧阁古装摄影</a>
+				</p>
+                    </div>
+			
+                </div>
+		
+                <div id="left">
+                    <div class='feed'>
+                        <div class='feedTitle'>
+                            <h3><span style='color:red;'>MOVEMENT</span>投票动态</h3>
+                        </div>
+                        <ul class='feedList'>
+                            <li id='fi1' class='feedItem'>
+                            </li>
+                            <li id='fi2' class='feedItem'>
+                            </li>
+                            <li id='fi3' class='feedItem'>
+                            </li>
+                            <li id='fi4' class='feedItem'>
+                            </li>
+                            <li id='fi5' class='feedItem'>
+                            </li>
+                            <li id='fi6' class='feedItem'>
+                            </li>
+                        </ul>
+                        <div class='votebtn'>
+                            <a href="vote.html" style="color:orange">我也投票去</a>
+                            <img style='position:absolute;right:4px;top:2px;' src='css/images/go.gif'/>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        getFeed();
+                    </script>
+                    <div class='message'>
+                        <div class='feedTitle'>
+                            <a style='float: right; display:block;position: relative; left: -25px;top:-6px;' href='messages.php' target='black'><img title='点此查看全部留言' style='border:0px;' src='css/images/more.png'>
+                                </img></a><h3><span style='color:red;'>IMPRESSION</span>&nbsp活动印象</h3>
+                        </div>
+                        <ul id='msg' class='msgList'>
+                            <li class='msgItem'>
+                                <div class='msgInfo'>
+                                </div>
+                                <div class='msgTag'>
+                                    <div class='msgAuthor'>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </li>
+                         
+                        </ul>
+                        <textarea id="message_box">来留个言吧……</textarea>
+                        <input class='btn' type="button" value="提交" onclick='sendMsg();'>
+                        </input>
+                    </div>
+                </div>
+                <div style="clear: both;">
+                    &nbsp;
+                </div>
+            </div>
+            <div id="bottom">
+            </div>
+            <div id="footer">
+                <p>
+                    Copyright &copy; 2010. Designed by <a href='http://2beeman.com'>2BeeMan</a>&<a href="http://blog.yuhanghome.net/" title="Abraham">Abraham</a>
+                </p>
+                <p>
+                    友情链接：<a href='http://www.sfs.nju.edu.cn/default.aspx'>外国语学院</a>,<a href="http://jc.nju.edu.cn/">新闻传播学院</a>,<a href='http://software.nju.edu.cn'>软件学院</a>
+                </p>
+				<p>
+					赞助：<a href="http://xigesheying.xici.net">禧阁古装摄影</a>
+				</p>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var so = new SWFObject('jwplayer/player-viral.swf', 'ply', '220', '153', '9', '#ffffff');
+            so.addParam('allowfullscreen', 'true');
+            so.addParam('allowscriptaccess', 'always');
+            so.addParam('wmode', 'opaque');
+            so.addVariable('file', 'mv2.flv');
+            so.addVariable('image', 'jwplayer/preview.png');
+            so.write('video');
+        </script>
+		<script type="text/javascript">
+			XMLHttp.sendRequest('GET','message.php','content='+content,dealSMsg);
+		</script>
+		<script src="http://s20.cnzz.com/stat.php?id=3082592&web_id=3082592&show=pic" language="JavaScript"></script>
+    </body>
+</html>

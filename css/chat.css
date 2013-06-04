@@ -1,0 +1,38 @@
+#chatBoard{
+	border:1px solid #a4eee4;
+	height:380px;
+	margin-left:10px;
+	margin-right:10px;
+	text-align:justify;
+	word-break:break-all;
+	margin-bottom:5px;
+	padding:10px;
+	font-size:16px;
+	overflow-y:scroll;
+}
+.inputAren input{
+	margin-top:5px;
+	
+	font-size:18px;
+}
+.uinfo{
+	font-size:18px;
+	text-align:justify;
+	margin:5px;
+}
+#uname{
+	font-style:italic;
+	color:gray;
+	margin-right:10px;
+}
+.eachMsg{
+	padding-bottom:15px;
+	border-bottom:1px dashed #a4eee4;
+}
+.eachName{
+	font-size:13px;
+	color:#27baf1;
+}
+.eachContent{
+	margin-left:40px;
+}

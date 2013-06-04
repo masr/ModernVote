@@ -1,0 +1,292 @@
+﻿/*
+ Design by Metamorphosis Design
+  Modify by Abraham
+ Email:abraham1@163.com
+ QQ:380850433
+ Released for free under a Creative Commons Attribution 2.5 License
+ */ * {
+    margin: 0px;
+    padding: 0px;
+list-style:none;
+}
+#menu .on{
+	color:orange;
+}
+a:link {
+    color: #30A6D1;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+a:visited {
+    color: #30A6D1;
+}
+
+body {
+    background: #000000 url(images/back_all.jpg) no-repeat;
+    font: 13px Arial, Helvetica, sans-serif;
+    color: #383838;
+    margin-top: 20px;
+}
+
+#content {
+    width: 733px;
+    margin: 0px auto;
+}
+
+#main {
+    width: 733px;
+    height: 14px;
+    background: url(images/top.png) no-repeat;
+}
+
+#back {
+    width: 733px;
+    background: url(images/back.png) repeat-y;
+}
+
+#bottom {
+    width: 733px;
+    height: 20px;
+    background: url(images/bottom.png) no-repeat;
+}
+
+#header {
+    height: 295px;
+    text-align: right;
+}
+
+#logo {
+    background: url(images/3.jpg) no-repeat;
+    width: 713px;
+    height: 223px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#logo a {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#logo H2 a {
+    font-size: 12px;
+}
+
+#menu {
+    width: 680px;
+    height: 80px;
+    padding-left: 53px;
+    background: url(images/menu.png) no-repeat;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a {
+    float: left;
+    width: 100px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+#menu a.beeman {
+    padding-top: 5px;
+}
+
+#menu a.beeman {
+    width: 140px;
+}
+
+#menu a.beeman:hover {
+    width: 140px;
+}
+
+#menu a:hover {
+    width: 100px;
+    height: 30px;
+    color: #C2F8FF;
+    text-decoration: underline;
+    background: url(images/menu_r.png) repeat-x;
+}
+
+#footer {
+    height: 44px;
+    clear: both;
+    padding-top: 30px;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 10px;
+    text-align: center;
+    color: #666666;
+}
+
+#footer a {
+    color: #666666;
+}
+
+.player {
+    width: 150px;
+    height: 200px;
+	cursor:pointer;
+}
+
+.single_list {
+    display: inline-block;
+    background: #eaeaea;
+    border: 1px double #9a9a9a;
+    width: 160px;
+    height: 270px;
+    padding: 5px;
+	text-align:center;
+}
+
+.name {
+    position: relative;
+    width: 150px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.name a {
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+
+.name img {
+    cursor: pointer;
+    display: block;
+	margin-left:20px;
+	margin-top:1px;
+}
+
+.rank {
+    display: block;
+    color: orange;
+    font-size: 13px;
+    padding-left: 15px;
+	text-align:left;
+}
+
+.gotoVote {
+    background: url(images/vote.gif) no-repeat;
+}
+
+#back ul {
+    list-style: none;
+    margin-left: 15px;
+}
+
+#back li {
+    margin-bottom: 15px;
+}
+
+#msgDialog {
+    display: none;
+    position: absolute;
+    width: 370px;
+    height: 200px;
+    border: 1px double #0bbcca;
+    background: url(images/tbg.png);
+    opacity: 1;
+    left: 400px;
+    top: 500px;
+    z-index: 1000;
+}
+
+#dTitle {
+    position: relative;
+    font-size: 17px;
+    padding-left: 8px;
+    font-family: ΢���ź�;
+    color: white;
+    cursor: move;
+}
+
+#dtbg {
+    display: inline-block;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    height: 25px;
+    width: 370px;
+}
+
+#dContent {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#dContent .mdiv input {
+    display: block;
+    font-size: 18px;
+    width: 310px;
+    color: gray;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    border: 1px dashed #30A6D1;
+}
+
+#dOk {
+    cursor: pointer;
+    position: relative;
+    color: orange;
+	font-size:16px;
+	left:200px;
+}
+#dC{
+	cursor: pointer;
+    position: relative;
+    color: orange;
+	font-size:16px;
+	margin-left:20px;
+	left:200px;
+}
+#mask {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 2000px;
+    height: 2000px;
+    background: gray;
+    z-index: 999;
+    opacity: 0.5;
+	filter:Alpha(Opacity=50);
+}
+
+#logo h1,#logo h2{
+display:none;
+}
+
+a#chat_link{
+	width:184px;
+	height:42px;
+	display:block;
+	background:url('images/chat.png');
+	margin:20px 0 20px 270px;
+}

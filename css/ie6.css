@@ -1,0 +1,396 @@
+/*
+ Design Originally by Metamorphosis Design
+ Modify by Abraham
+ Email:abraham1@163.com
+ QQ:380850433
+ Released for free under a Creative Commons Attribution 2.5 License
+ */ * {
+    margin: 0px;
+    padding: 0px;
+	list-style:none;
+}
+#menu .on{
+	color:orange;
+}
+a:link {
+    color: #30A6D1;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+a:visited {
+    color: #30A6D1;
+}
+
+body {
+    background: #000000 url(images/back_all.jpg) no-repeat;
+    font: 13px Arial, Helvetica, sans-serif;
+    color: #383838;
+    margin-top: 20px;
+}
+
+#content {
+    width: 733px;
+    margin: 0px auto;
+}
+
+#main {
+    width: 733px;
+    height: 14px;
+    background: url(images/top.png) no-repeat;
+}
+
+#back {
+    width: 733px;
+    background: url(images/back.png) repeat-y;
+}
+
+#bottom {
+    width: 733px;
+    height: 20px;
+    background: url(images/bottom.png) no-repeat;
+}
+
+#header {
+    height: 295px;
+    text-align: right;
+}
+
+#logo {
+    background: url(images/3.jpg) no-repeat;
+    width: 713px;
+    height: 223px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#logo a {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#logo H2 a {
+    font-size: 12px;
+}
+
+#menu {
+    width: 800px;
+    height: 80px;
+    padding-left:0px;
+    background: url(images/menu.png) no-repeat;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a {
+    float: left;
+    width: 100px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+#menu a:hover {
+    width: 100px;
+    height: 30px;
+    color: #C2F8FF;
+    text-decoration: underline;
+    background: url(images/menu_r.png) repeat-x;
+}
+
+#news li a{
+	background:url(images/pen.png) no-repeat;
+	padding-left:15px;
+	padding-top:-1px;
+}
+.title_back div img{
+	position:relative;
+	left:160px;
+	cursor:pointer;
+	margin-bottom:10px;
+}
+#right {
+    width: 228px;
+    float: right;
+    margin-right: 10px;
+}
+
+#right H3 {
+    width: 218px;
+    height: 27px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: ΢���ź�;
+    padding-left: 10px;
+    padding-top: 13px;
+    text-transform: uppercase;
+    color: black;
+    background: url(images/title.png) no-repeat;
+}
+
+#right ul {
+    list-style: none;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+#right .title_back {
+	margin-bottom:20px;
+	padding:3px;
+}
+
+#right li {
+    padding: 7px;
+    padding-left: 20px;
+}
+
+#right a {
+    color: #30A6D1;
+}
+
+#right a:visited {
+    color: #30A6D1;
+}
+
+#right p {
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+#left h3 {
+    font-weight: bolder;
+    font-family: ΢���ź�;
+    display: inline-block;
+	color:black;
+}
+
+.bot {
+    padding: 10px;
+}
+
+#left {
+    width: 450px;
+    margin-left: 20px;
+}
+
+#left H4 {
+    margin: 0;
+    padding: 0px;
+    font-size: 12px;
+    color: #30A6D1;
+}
+
+#left a {
+    color: #30A6D1;
+    text-decoration: none;
+}
+
+#left p {
+    margin: 5px;
+    padding: 0;
+}
+
+#left h2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    color: #30A6D1;
+}
+
+.date {
+    text-align: right;
+    color: #30A6D1;
+    font-size: 11px;
+}
+
+.date a {
+    color: #30A6D1;
+}
+
+#footer {
+    height: 44px;
+    clear: both;
+    padding-top: 30px;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 10px;
+    text-align: center;
+    color: #666666;
+}
+
+#footer a {
+    color: #666666;
+}
+
+.menuimg {
+    position: relative;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+}
+
+.menutxt {
+    position: relative;
+    top: -25px;
+}
+
+.feed {
+    width: 420px;
+}
+
+.feedTitle {
+    background: url(images/ftitle.png) no-repeat;
+    width: 420px;
+    height: 38px;
+    padding-left: 8px;
+    padding-top: 8px;
+    margin: 0px;
+    color: white;
+}
+
+.feedList {
+    padding: 3px;
+    margin: 0px;
+}
+
+.feedItem {
+    position: relative;
+    border-bottom: 1px dashed #92cbed;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.player_img {
+    position: absolute;
+}
+
+.player_msg {
+    margin-left: 50px;
+}
+
+.player_say {
+    color: gray;
+    font-style: italic;
+}
+
+.player_time {
+    margin-left: 50px;
+    font-size: 12px;
+}
+
+.figure {
+    width: 40px;
+    height: 40px;
+	cursor:pointer;
+}
+
+.feedList {
+    list-style: none;
+}
+
+.votebtn {
+    position: relative;
+    left: 285px;
+    cursor: pointer;
+    background: url(images/vote.gif) transparent no-repeat;
+    height: 28px;
+    width: 126px;
+    color: orange;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: ΢���ź�;
+    padding-top: 4px;
+    padding-left: 2px;
+}
+
+.message {
+    margin-top: 25px;
+    width: 420px;
+}
+
+.msgList {
+    list-style: none;
+}
+
+.msgItem {
+    position: relative;
+    padding-left: 5px;
+	border-bottom:1px dashed #92cbed;
+}
+
+.msgInfo {
+	background:url(images/msg.gif) no-repeat 0px 5px;
+	padding-left:15px;
+    font-size: 18px;
+}
+
+.msgTag {
+    height: 25px;
+}
+
+.msgAuthor {
+    float: right;
+    margin-right: 8px;
+    font-style: italic;
+    color: gray;
+}
+#message_box{
+	margin-top:20px;
+	margin-left:2px;
+	width:370px;
+	height:40px;
+	border:1px double #1dc5e2;
+}
+.btn{
+	height:40px;
+	width:40px;
+	position:relative;
+	left:-3px;
+	top:-2px;
+}
+
+#back h2{
+	text-align:center;
+	color:blue;
+}
+
+.morebtn {
+    float: right;
+    display: block;
+    position: relative;
+    left: -25px;
+    top: 0px;
+}
+
+#msgDialog {
+    display: none;
+    position: absolute;
+    width: 370px;
+    height: 200px;
+    border: 1px double #0bbcca;
+    background: #e0e0e0;
+    left: 400px;
+    top: 500px;
+    z-index: 1000;
+}
